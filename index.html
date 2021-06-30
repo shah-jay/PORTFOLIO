@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Css/portfolio.css">
+        <link rel="stylesheet" media="screen and (max-width:1380px)" href="Css/Phone.css">
+        <title>PORTFOLIO | JAY Shah</title>
+    </head>
+    <body>
+        <nav id="nav" class="sticky">
+            <div id="logo">
+                <a href="#">PORTFOLIO</a>
+            </div>
+            <div class="toggle active" onclick="toggle();"></div>
+            <div class="container">
+                <ul class="menu active">
+                    <li class="item">
+                        <a href="#desc" onclick="toggle();">Home</a>
+                    </li>
+                    <li class="item">
+                        <a href="#about" onclick="toggle();">About</a>
+                    </li>
+                    <li class="item">
+                        <a href="#service" onclick="toggle();">Services</a>
+                    </li>
+                    <li class="item">
+                        <a href="#work" onclick="toggle();">Work</a>
+                    </li>
+                    <li class="item">
+                        <a href="#contact" onclick="toggle();">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section id="desc">
+            <div class="text">
+                <h1> Hey, I 'm</h1>
+                <br>
+                <h2>Jay Shah</h2>
+                <br>
+                <h2>Welcome To My Portfolio</h2>
+            </div>
+            <a href="#about" class="btn">About Me</a>
+        </section>
+        <section id="about">
+            <h2 class="heading intro">About Me</h2>
+            <div class="container">
+                <div class="content">
+                    <h3>Introduction Of Me</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ex magnam quisquam ab quia harum et porro eius neque similique voluptatibus nulla in consequatur, quibusdam, eaque tempora excepturi error, minima optio nobis. Autem,
+                    officia.
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia explicabo provident ducimus quis consequatur pariatur numquam ipsam? Esse facere optio saepe nam eligendi explicabo ducimus. Officia ea fugiat laborum ab soluta quod possimus
+                    maxime!
+                    </p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ab, repudiandae illo explicabo consequatur obcaecati veritatis sed iure sunt nobis asperiores perferendis! Quisquam!</p>
+                </div>
+                <!-- <div class="img">
+                <img src="../portfolio/img/cover2.jpg" alt="error">
+            </div> -->
+            </div>
+        </section>
+        <section id="service">
+            <div class="heading service">
+                <h2>Our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, perferendis!</p>
+            </div>
+            <div class="services">
+                <div class="servicebox">
+                    <img src="/img/second.jpg" alt="error">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, odit.</p>
+                </div>
+                <div class="servicebox">
+                    <img src="/img/cover2.jpg" alt="error">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, odit.</p>
+                </div>
+                <div class="servicebox">
+                    <img src="/img/cover1.jpg" alt="error">
+                    <h3>Android Developmemnt</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, odit.</p>
+                </div>
+            </div>
+        </section>
+        <section id="work">
+            <div class="info">
+                <h3>Our Work</h3>
+                <p>These are the leatest work we have done</p>
+            </div>
+            <div class="wimg">
+                <div class="workbox">
+                    <img src="/img/cover2.jpg" alt="error">
+                    <h3>Web Page / Landing Page</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="workbox">
+                    <img src="/img/cover1.jpg" alt="error">
+                    <h3>Android Applications</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="workbox">
+                    <img src="/img/second.jpg" alt="error">
+                    <h3>Designing</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="cme">
+                <h2>Contact Me</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="scontact">
+                <div class="informatiom">
+                    <h2>Contact Info</h2>
+                    <br>
+                    <div class="address">
+                        <h3>Address</h3>
+                        <p>D/404,Vishwas City-10,Gota,Ahmedabad</p>
+                        <br>
+                    </div>
+                    <div class="number">
+                        <h3>Contact No</h3>
+                        <p>
+                            +91-7283993653
+                            <p>
+                            </div>
+                            <br>
+                            <div class="email">
+                                <h3>Email Id</h3>
+                                <p>shahjay0901@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="formbox">
+                            <h2 class="mme">Message Me</h2>
+                            <form>
+                                <div class="box">
+                                    <input type="text" placeholder="Enter Your Full Name">
+                                </div>
+                                <div class="box">
+                                    <input type="email" placeholder="Enter Your Email Id">
+                                </div>
+                                <div class="box">
+                                    <textarea type="text" placeholder="Your Message"></textarea>
+                                </div>
+                                <input type="submit" class="btn" value="send">
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <div class="footer">Copyright © Jay Shah. All right Reserved.</div>
+                <script>
+        window.addEventListener('scroll', function() {
+            var header = document.querySelector('nav');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        })
+
+        function toggle() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+                </script>
+            </body>
+        </html>

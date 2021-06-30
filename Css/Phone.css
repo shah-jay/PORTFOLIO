@@ -1,0 +1,76 @@
+#nav {
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#desc {
+    display: flex;
+    background-size: 100%;
+}
+
+.text {
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.heading {
+    width: -webkit-fill-available;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.content {
+    font-size: 1rem;
+}
+
+#about img {
+    display: block;
+    position: relative;
+    height: 66%;
+    border-radius: 4px;
+}
+
+.services {
+    display: block;
+    padding-top: 20px;
+}
+
+.wimg {
+    display: block;
+}
+
+.servicebox {
+    margin: 10px;
+}
+
+.workbox {
+    margin: 0px;
+    text-align: center;
+}
+
+.scontact {
+    display: block;
+}
+
+.mme {
+    font-size: 2rem;
+    margin-top: 28px;
+    text-align: center;
+}
+
+form {
+    align-items: center;
+    padding-left: 40px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    width: 30%;
+}
